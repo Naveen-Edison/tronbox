@@ -1,15 +1,16 @@
 # tronbox
 This is regarding creating cryptocoin in tron network
 
-Install TronBox Globally 
+# Install TronBox Globally 
+    npm install tronbox -g
 
 create folder for example(edi) and run commands
 
 # into the folder
-cd edi
+    cd edi
 
 # creating project
-tronbox init
+    tronbox init
 
 In Contract folder create your solidity file 
 
@@ -18,11 +19,11 @@ For Example : Edison_Token.sol
 Paste your token creating solidity code or code it 
 
 # compile the code 
-tronbox compile 
+    tronbox compile 
 
 #After compile migrate it in shasta ( test net ) / main network 
 
-tronbox migrate --network shasta
+    tronbox migrate --network shasta
 
 
 
